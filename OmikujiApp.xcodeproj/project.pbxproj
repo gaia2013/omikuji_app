@@ -12,6 +12,7 @@
 		602A6FD8211E6EF000C9BDE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602A6FD6211E6EF000C9BDE9 /* Main.storyboard */; };
 		602A6FDA211E6EF400C9BDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602A6FD9211E6EF400C9BDE9 /* Assets.xcassets */; };
 		602A6FDD211E6EF400C9BDE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602A6FDB211E6EF400C9BDE9 /* LaunchScreen.storyboard */; };
+		602A6FEB211EA66500C9BDE9 /* syakasyaka.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 602A6FEA211EA66500C9BDE9 /* syakasyaka.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		602A6FD9211E6EF400C9BDE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		602A6FDC211E6EF400C9BDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		602A6FDE211E6EF400C9BDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		602A6FEA211EA66500C9BDE9 /* syakasyaka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = syakasyaka.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		602A6FC6211E6EF000C9BDE9 = {
 			isa = PBXGroup;
 			children = (
+				602A6FE9211EA66500C9BDE9 /* sound */,
 				602A6FD1211E6EF000C9BDE9 /* OmikujiApp */,
 				602A6FD0211E6EF000C9BDE9 /* Products */,
 			);
@@ -62,6 +65,15 @@
 				602A6FDE211E6EF400C9BDE9 /* Info.plist */,
 			);
 			path = OmikujiApp;
+			sourceTree = "<group>";
+		};
+		602A6FE9211EA66500C9BDE9 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				602A6FEA211EA66500C9BDE9 /* syakasyaka.mp3 */,
+			);
+			name = sound;
+			path = ../../Downloads/syakasyaka;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +136,7 @@
 			files = (
 				602A6FDD211E6EF400C9BDE9 /* LaunchScreen.storyboard in Resources */,
 				602A6FDA211E6EF400C9BDE9 /* Assets.xcassets in Resources */,
+				602A6FEB211EA66500C9BDE9 /* syakasyaka.mp3 in Resources */,
 				602A6FD8211E6EF000C9BDE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +300,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.omikuji.hitoshi.OmikujiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.omikujiapp.hitoshi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,7 +318,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.omikuji.hitoshi.OmikujiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.omikujiapp.hitoshi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
